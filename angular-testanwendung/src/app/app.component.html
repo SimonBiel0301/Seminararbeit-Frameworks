@@ -1,0 +1,15 @@
+<div>
+  <div>
+    <h1>Angular Testanwendung</h1>
+    <h2>HouseTech</h2>
+  </div>
+  <div class="content">
+    <div class="vertical">
+      <button (click)="incrementCounter()">Klick mich!</button>
+      <button (click)="resetCounter()">Selbstzerstörung</button>
+    </div>
+    <div id="card-container">
+      <app-display [title]="'Klicks gegeben'" [content]="counter"></app-display>
+    </div>
+  </div>
+</div>
